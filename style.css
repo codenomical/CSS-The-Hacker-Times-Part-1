@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+main, h2 {
     font-family: "Roboto Slab";
 }
 
@@ -29,6 +29,9 @@ a:link {
 nav {
     border-top: solid 1px #777;
     border-bottom: solid 1px #777;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .newspaper-container {
